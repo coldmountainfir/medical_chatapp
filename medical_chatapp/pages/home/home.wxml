@@ -1,0 +1,36 @@
+<import src="/templates/showcase/index" />
+<import src="/templates/page-status-indicator/index" />
+<home-search-bar id="searchBar" bindfocus="onFocus" bindcancel="onCancel" bindsearch="onSearch"></home-search-bar>
+<template data="{{pageStatus}}" is="page-status-indicator"></template>
+
+<view class="search-results">
+  <block wx:if="{{searchResults}}">
+    <view class="result-item">
+      <text>{{searchResults}}</text>
+    </view>
+  </block>
+  <view class="weui-panel__ft" wx:else>
+  <navigator url="./children/help">
+    <view class="weui-cell weui-cell_access weui-cell_link">
+      <view class="weui-cell__bd">
+        <!-- 添加图片标签 -->
+        <image src="/images/24280.jpg" class="cell-image" mode="aspectFit"></image>
+        如何使用医学研究支持系统？
+      </view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </view>
+  </navigator>
+</view>
+
+</view>
+
+
+
+
+
+<view class="medical-images-container">
+  <block wx:for="{{medicalImages}}" wx:key="index">
+    <image class="medical-image" src="{{item}}" mode="aspectFit"></image>
+  </block>
+</view>
+

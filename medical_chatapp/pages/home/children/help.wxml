@@ -1,0 +1,59 @@
+<view class="weui-article">
+  <view class="weui-article__h1">如何使用医学研究支持系统？</view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">1. 文献智能推荐</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        设置您的研究方向和兴趣，系统将自动推荐相关文献资料。您可以在“文献推荐”模块查看并调整推荐设置。
+      </view>
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">2. 文献检索</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        使用系统提供的文献检索工具，通过关键词、作者、期刊等多种方式进行检索。在检索结果页面进行筛选、排序并导出所需文献。
+      </view>
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">3. 数据清洗与整理</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        在“数据清洗”模块上传数据文件，按照系统提示进行数据清洗和整理，确保数据质量。
+      </view>
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">4. 数据分析与结果解读</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        利用系统提供的统计分析工具进行数据分析，并解读分析结果。完成后，您可以生成并导出分析报告。
+      </view>
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">5. 研究数据可视化</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        在“数据可视化”模块选择数据源和图表类型，将研究数据以图表形式进行可视化展示。
+      </view>
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">6. 智能实验设计</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        根据研究目标和背景，使用系统提供的智能实验设计方案，优化实验设计流程。
+      </view>
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">7. 联系我们</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        如有疑问，请通过客服邮箱、电话或在线聊天联系我们。您的反馈对我们至关重要，请通过“帮助与反馈”模块提交建议。
+      </view>
+    </view>
+  </view>
+</view>

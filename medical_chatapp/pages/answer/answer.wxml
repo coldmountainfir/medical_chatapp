@@ -1,0 +1,54 @@
+<!--answer.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">急性早幼粒细胞白血病的治疗进展</text>
+    </view>
+    
+    <view class="answer-content">
+        <text>急性早幼粒细胞白血病（APL）是一种特殊类型的急性髓系白血病，其特点是异常的早幼粒细胞在骨髓中大量积累。这种疾病因其起病急、进展快、治疗难度大而一度被认为是血液系统中最致命的疾病之一。在传统治疗方法下，APL患者的五年生存率仅为10%到15%，这表明了其治疗挑战的严峻性。
+
+        然而，近年来，中国研究人员在APL的治疗领域取得了突破性的进展。这一进展的核心在于发现了新的白血病生物分子标志和药物靶标。具体来说，研究人员发现了一种名为PML-RARA的融合基因，这是APL的一个特异性分子标志。PML-RARA融合基因编码的融合蛋白在APL的发病机制中起着关键作用，因此成为了一个理想的治疗靶点。        
+        </text>
+        <image src="../../images/bxb1.jpg"></image>
+        <text>
+          基于这一发现，研究人员开发出了针对PML-RARA融合蛋白的联合靶向治疗方法。这种治疗方法通常包括使用全反式维甲酸（ATRA）和三氧化二砷（ATO）两种药物。全反式维甲酸能够诱导APL细胞的分化和成熟，而三氧化二砷则能够促进APL细胞的凋亡。这两种药物的联合使用，不仅能够有效地抑制白血病细胞的生长，还能减少疾病的复发率。
+          
+          这项治疗进展的临床应用结果显示，接受联合靶向治疗的APL患者的五年生存率显著提高，达到了90%以上。这一显著的改善不仅提高了患者的生存质量，也极大地改变了APL的治疗前景。这一成果标志着精准医疗在血液肿瘤治疗领域的重大突破，并为其他类型白血病的治疗提供了新的思路和范例。
+        </text>
+        <image src="../../images/bxb2.jpg"></image>
+    </view>
+
+    <view class="answer-footer flex-wrp">
+        <!-- <view class="good flex-item">
+            <view class="good-bad">
+                <image src="../../images/good-bad.png"></image>
+            </view>
+            <view class="good-num">2.1k</view>
+        </view> -->
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <!-- <view class="operation-btn flex-item">
+                    <image src="../../images/flag.png"></image>
+                    <text>没有帮助</text>
+                </view> -->
+                <view class="operation-btn flex-item">
+                    <image src="../../images/heart2.png"></image>
+                    <text>点赞</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/star2.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/comment.png"></image>
+                    <text>评论</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+

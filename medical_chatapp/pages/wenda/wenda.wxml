@@ -1,0 +1,25 @@
+<view class="container">
+  <scroll-view class="chat-list" scroll-y="true" scroll-with-animation="true" scroll-into-view="scrollToView">
+    <view wx:for="{{chatData}}" wx:key="index" class="chat-item">
+      <view class="chat-bubble {{item.isme ? 'user-chat' : 'bot-chat'}}">
+        <image class="chat-avatar" src="{{item.touxiang}}" />
+        <view class="chat-message">{{item.chat}}</view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="input-container">
+    <input class="input" type="text" placeholder="输入要分析的文本内容" value="{{mychat}}" bindinput="bindInput" />
+    <button class="send" bindtap="sendChat">发送</button>
+  </view>
+</view>
+
+
+
+
+<view class="weui-btn-area">
+  <button class="weui-btn" type="primary" catchtap="onScan">上传检测结果与病历</button>
+  <navigator wx:if="{{selectedBooks.length}}" hover-class="none" class="weui-btn" url="./children/qrcode">
+  </navigator>
+</view>
+
+

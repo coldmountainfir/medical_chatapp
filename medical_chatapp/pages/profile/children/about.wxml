@@ -1,0 +1,26 @@
+<view class="logo-container">
+    <image src="/images/logo.jpeg"></image>
+    <view class="font-black-34">医智助手</view>
+</view>
+<view class="weui-cells">
+    <view class="weui-cell">
+        <view class="weui-cell__bd">致谢</view>
+        <view class="weui-cell__ft">谢天谢地</view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">开发者</view>
+        <view class="weui-cell__ft">实习者</view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">联系方式</view>
+        <view class="weui-cell__ft color-blue">123456789@qq.com</view>
+    </view>
+</view>
+<view class="weui-msg__extra-area">
+    <view class="weui-footer">
+        <view class="weui-footer__links">
+            <view class="weui-footer__link" url="">GitHub @imageslr</view>
+        </view>
+        <view class="weui-footer__text">Copyright © 2017-2021 Imageslr</view>
+    </view>
+</view>

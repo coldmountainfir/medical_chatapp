@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  background: #ffffff;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-list {
+  flex: 30;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.chat-item {
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-chat {
+  justify-content: flex-end; /* 用户消息靠右对齐 */
+  margin-right: 20px;
+}
+
+.bot-chat {
+  justify-content: flex-start; /* 机器回复靠左对齐 */
+  margin-left: 20px;
+}
+
+.chat-message {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 70%;
+  word-wrap: break-word;
+  text-align: left; /* 将内容靠左对齐 */
+}
+
+
+.chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex-grow: 1;
+  border: 1px solid rgb(85, 80, 80);
+  font-size: 16px; /* 输入框的字体大小 */
+  padding: 10px;
+  margin: 20px;
+  text-align: left; /* 确保字体左对齐 */
+}
+
+
+.send {
+  margin: 10px;
+}
+
+/* 用户消息样式 */
+.user-chat .chat-message {
+  font-size: 16px; /* 用户消息的字号大小 */
+  background-color: #a4e2c6; /* 用户消息的背景颜色 */
+  text-align: left;
+}
+
+/* 机器回复样式 */
+.bot-chat .chat-message {
+  font-size: 14px; /* 机器回复的字号大小 */
+  background-color: #e2e2e2; /* 机器回复的背景颜色 */
+  text-align: left;
+}

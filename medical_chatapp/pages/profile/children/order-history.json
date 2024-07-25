@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "搜索医疗文献历史",
+  "usingComponents":
+  {
+    "load-more": "/components/load-more/index",
+    "no-data": "/components/no-data/index"
+  }
+}
